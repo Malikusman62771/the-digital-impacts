@@ -1,0 +1,36 @@
+.aboutdiv{
+   margin-top: 20px;
+}
+.headerabout{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+p{
+    font-size: 20px;
+}
+.head1{
+    color: #22a1da;
+}
+.img6{
+    width: 1200px;
+    height: 150px;
+position: relative;
+top: 50px;
+left: 30px;
+}
+.img7{
+    width: 1256px;
+    height: 550px;
+    position: relative;
+    top: 100px;
+}
+.img8{
+    width: 1256px;
+    height: 100px;
+    position: relative;
+    top: 90px;
+}
