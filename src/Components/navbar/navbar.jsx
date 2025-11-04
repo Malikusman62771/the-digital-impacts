@@ -8,9 +8,9 @@ function Navbar() {
         <img src={img1} className='imgnav' />
         <div className='navdiv'>
         <ol className='navol'>
-            <li><Link to="/">Home</Link></li>
+            <li ><Link to="/">Home</Link></li>
             <li><Link to="/services">Services </Link></li>
-            <li><Link to="/about">About Us</Link></li>
+            <li ><Link to="/about">About Us</Link></li>
             <li><Link to="/portfolio">Portfolio</Link></li>
         </ol>
         <button className='buttonnav'>Contact us</button>
