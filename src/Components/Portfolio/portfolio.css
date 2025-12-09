@@ -16,11 +16,11 @@
    margin-left: 100px;
 
 }
-.img7{
+.img10{
     height: 400px;
     width: 450px;
 }
-.img8{
+.img9{
     height: 350px;
     width: 350px;
 }
@@ -29,7 +29,18 @@
     margin-top: 100px;
     height: 1700px;
 }
-.hover1:hover{
-    background-color: #f7f7f7;
-    color: #f7f7f7;
+.img10:hover{
+    background-color: gray;
+    color: gray;
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+.img14{
+    width: 1255px;
+   
+}
+.img15{
+    width: 1255px;
+    position: relative;
+    bottom:10px;
 }

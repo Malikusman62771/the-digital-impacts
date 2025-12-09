@@ -8,6 +8,8 @@ import img11 from'../../assets/img/11.png'
 import img12 from '../../assets/img/12.png'
 import img13 from'../../assets/img/13.png'
 import img14 from '../../assets/img/14.png'
+import img4 from '../../assets/img/4.png'
+import img5 from '../../assets/img/5.png'
 function Portfolio() {
   return (
     <>
@@ -18,26 +20,29 @@ function Portfolio() {
     </div>
     <div  className='portdiv'>
         <div className='img1ofport'>
-           <img src={img8} className='img8' />
+           <img src={img8} className='img9' />
            
-            <a href="https://www.revivesalon.pk/*" target='blank' className='hover1'><img src={img7} className='img7' /></a>
+            <a href="https://www.revivesalon.pk/*" target='blank' ><img src={img7} className='img10' /></a>
            
         </div>
         <div className='img1ofport'>
-            <a href=" https://voeuxcosmetics.com/" target='blank'><img src={img10} className='img7' /></a>
-          <img src={img9} className='img8 '/>
+            <a href=" https://voeuxcosmetics.com/" target='blank'><img src={img10} className='img10' /></a>
+          <img src={img9} className='img9 '/>
         
         </div>
         <div className='img1ofport'>
-         <img src={img11} className='img7' />
-         <a href="https://kingz.com/" target='blank'><img src={img12} className='img8' /></a>
+         <img src={img11} className='img9' />
+         <a href="https://kingz.com/" target='blank'><img src={img12} className='img10' /></a>
         </div>
         <div className='img1ofport'>
-           <a href="https://unifresh.com.au/" target='blank'><img src={img13}className='img8'  /></a>
-           <img src={img14} className='img7'  />
+           <a href="https://unifresh.com.au/" target='blank'><img src={img13}className='img10'  /></a>
+           <img src={img14} className='img9'  />
         </div>
     </div>
     
+    <img src={img4}  className='img14' />
+    <img src={img5}  className='img15' />
+
     </>
   )
 }

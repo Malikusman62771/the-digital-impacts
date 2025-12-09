@@ -9,7 +9,7 @@
 }
 .card1{
    
-    box-shadow: #0796d6 -2PX -2px 5PX 5px ;
+    box-shadow: #0796d6 -2PX 2px 2PX ;
     width: 250px;
     height: 300px;
     padding: 20px;
@@ -19,7 +19,9 @@
     text-align: center;
     justify-content: center; 
     border-radius: 10px;
-    border-color: #0796d6 2px 2px 2px;
+    border-bottom: 15px  solid #0796d6;
+    border-top: 15px  solid #0796d6;
+    border-right: 2px solid #0796d6;
    
 }
 .cardh1{
@@ -63,4 +65,8 @@
     width: 1250px;
     position: relative;
     top: 240px;
+}
+.card1:hover{
+    transform:scale(1.1);
+    transition: 1.1s;
 }
